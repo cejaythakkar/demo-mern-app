@@ -1,0 +1,29 @@
+.home-wrapper {
+    display:flex;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  .text-wrapper {
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ededed;
+    padding: 1rem;
+    box-shadow: 0 0 5px 5px #eadfe3;
+    p {
+      font-size: 3rem;
+      line-height:normal;
+      text-align:center;
+    }
+    p.author{
+        margin-top:2rem;
+        font-size:1.4rem;
+        width:100%;
+    }
+  }
+}

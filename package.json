@@ -1,0 +1,20 @@
+{
+  "name": "mern-assignment",
+  "version": "1.0.0",
+  "description": "it's a simple mern app for reference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "origin https://github.com/cejaythakkar/mern-assignment.git"
+  },
+  "author": "jay thakkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
