@@ -5,11 +5,13 @@ import Users from '../../containers/users'
 import About from '../../containers/about';
 import Home from '../../containers/home';
 import Redux from '../../containers/redux';
+import Counter from './counter'
 import './body.scss';
 
 export default function Body() {
     return (
         <main className="body-container">
+            <Counter />
             <Switch>
                 <Route path="/" exact component={Home}></Route>
                 <Route path="/todos" component={Todos}></Route>
