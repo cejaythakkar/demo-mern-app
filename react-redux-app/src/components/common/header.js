@@ -12,6 +12,7 @@ export default function Header() {
                     <li className="nav-item"><Link to="/users" className="nav-link">Users</Link></li>
                     <li className="nav-item"><Link to="/redux" className="nav-link">Redux</Link></li>
                     <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
+                    <li className="nav-item"><Link to="/jotto" className="nav-link">Jotto</Link></li>
                 </ul>
             </nav>
         </header>

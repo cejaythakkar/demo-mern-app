@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-export const getTodos = async () => await axios.get('/todos')
+export const fetchTodos = async () => await axios.get('/todos')

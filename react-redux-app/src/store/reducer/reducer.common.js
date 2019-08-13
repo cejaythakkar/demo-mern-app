@@ -10,6 +10,7 @@ export default ( state = initialState , action ) => {
                 ...state,
                 isloading : action.value
             }
+        default:
+            return state;
     }
-    return state;
 }

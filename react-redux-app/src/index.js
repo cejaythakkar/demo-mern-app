@@ -9,12 +9,14 @@ import counterReducer from './store/reducer/counter';
 import resultReducer from './store/reducer/result';
 import commonReducer from './store/reducer/reducer.common';
 import todosReducer from './store/reducer/reducer.todos';
+import jottoReducer from './store/reducer/jotto';
 import thunk from 'redux-thunk';
 const rootReducer = combineReducers({
     ctr : counterReducer,
     result : resultReducer,
     todos : todosReducer,
-    common : commonReducer
+    common : commonReducer,
+    jotto : jottoReducer
 })
 
 const logger = store => {
